@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import "./globals.css";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol>
+        <ol className="text-green-500">
           <li>
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
